@@ -11,7 +11,7 @@ This project is a simple Flask app wrapped in a Docker container and deployed vi
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Python + Flask** – lightweight web framework
 - **Docker** – containerize the app for portability
@@ -21,4 +21,7 @@ This project is a simple Flask app wrapped in a Docker container and deployed vi
 
 ---
 
+###  API Demo Screenshot
+
+![Random Quote API](./api-screenshot.png)
 
