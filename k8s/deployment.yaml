@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-app-deployment
+  labels:
+    app: flask-app
+spec: 
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec: 
+      containers: 
+      - name: flask-containers
+        image: umair4321/random-quote-api:v1
+        ports:
+        - containerPort: 5500        
